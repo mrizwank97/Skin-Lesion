@@ -1,0 +1,85 @@
+Executing on gpu013
+Found 1894 images belonging to 1 classes.
+Found 1894 images belonging to 1 classes.
+Found 350 images belonging to 1 classes.
+Found 350 images belonging to 1 classes.
+Found 350 images belonging to 1 classes.
+Found 350 images belonging to 1 classes.
+Epoch 1/200
+ - 617s - loss: 0.5072 - mean_iou: 0.4049 - val_loss: 0.5346 - val_mean_iou: 0.4099
+
+Epoch 00001: val_mean_iou improved from -inf to 0.40989, saving model to ../models/isic-unet-bin-iou.h5
+Epoch 2/200
+ - 678s - loss: 0.4388 - mean_iou: 0.4087 - val_loss: 0.5419 - val_mean_iou: 0.4108
+
+Epoch 00002: val_mean_iou improved from 0.40989 to 0.41081, saving model to ../models/isic-unet-bin-iou.h5
+Epoch 3/200
+ - 625s - loss: 0.4491 - mean_iou: 0.4119 - val_loss: 0.5106 - val_mean_iou: 0.4118
+
+Epoch 00003: val_mean_iou improved from 0.41081 to 0.41180, saving model to ../models/isic-unet-bin-iou.h5
+Epoch 4/200
+ - 637s - loss: 0.4434 - mean_iou: 0.4119 - val_loss: 0.5450 - val_mean_iou: 0.4116
+
+Epoch 00004: val_mean_iou did not improve from 0.41180
+Epoch 5/200
+ - 629s - loss: 0.4595 - mean_iou: 0.4114 - val_loss: 0.5891 - val_mean_iou: 0.4114
+
+Epoch 00005: val_mean_iou did not improve from 0.41180
+Epoch 6/200
+ - 607s - loss: 0.4528 - mean_iou: 0.4112 - val_loss: 0.5007 - val_mean_iou: 0.4113
+
+Epoch 00006: val_mean_iou did not improve from 0.41180
+Epoch 7/200
+ - 667s - loss: 0.4532 - mean_iou: 0.4109 - val_loss: 0.5246 - val_mean_iou: 0.4107
+
+Epoch 00007: val_mean_iou did not improve from 0.41180
+Epoch 8/200
+ - 631s - loss: 0.4527 - mean_iou: 0.4106 - val_loss: 0.5067 - val_mean_iou: 0.4105
+
+Epoch 00008: val_mean_iou did not improve from 0.41180
+Epoch 9/200
+ - 610s - loss: 0.4476 - mean_iou: 0.4105 - val_loss: 0.5105 - val_mean_iou: 0.4105
+
+Epoch 00009: val_mean_iou did not improve from 0.41180
+Epoch 10/200
+ - 590s - loss: 0.4494 - mean_iou: 0.4104 - val_loss: 0.5029 - val_mean_iou: 0.4103
+
+Epoch 00010: val_mean_iou did not improve from 0.41180
+Epoch 11/200
+ - 689s - loss: 0.4256 - mean_iou: 0.4104 - val_loss: 0.5048 - val_mean_iou: 0.4105
+
+Epoch 00011: val_mean_iou did not improve from 0.41180
+Epoch 12/200
+ - 770s - loss: 0.4521 - mean_iou: 0.4103 - val_loss: 0.4967 - val_mean_iou: 0.4103
+
+Epoch 00012: val_mean_iou did not improve from 0.41180
+Epoch 13/200
+ - 783s - loss: 0.4536 - mean_iou: 0.4102 - val_loss: 0.5111 - val_mean_iou: 0.4101
+
+Epoch 00013: val_mean_iou did not improve from 0.41180
+Epoch 14/200
+ - 789s - loss: 0.4368 - mean_iou: 0.4101 - val_loss: 0.5074 - val_mean_iou: 0.4100
+
+Epoch 00014: val_mean_iou did not improve from 0.41180
+Epoch 15/200
+ - 834s - loss: 0.4230 - mean_iou: 0.4100 - val_loss: 0.4709 - val_mean_iou: 0.4101
+
+Epoch 00015: val_mean_iou did not improve from 0.41180
+Epoch 16/200
+ - 751s - loss: 0.4370 - mean_iou: 0.4100 - val_loss: 0.5439 - val_mean_iou: 0.4100
+
+Epoch 00016: val_mean_iou did not improve from 0.41180
+Epoch 17/200
+ - 728s - loss: 0.4329 - mean_iou: 0.4099 - val_loss: 0.4973 - val_mean_iou: 0.4099
+
+Epoch 00017: val_mean_iou did not improve from 0.41180
+Epoch 18/200
+ - 678s - loss: 0.4385 - mean_iou: 0.4099 - val_loss: 0.5109 - val_mean_iou: 0.4099
+
+Epoch 00018: val_mean_iou did not improve from 0.41180
+Epoch 19/200
+ - 670s - loss: 0.4479 - mean_iou: 0.4098 - val_loss: 0.5107 - val_mean_iou: 0.4098
+
+Epoch 00019: val_mean_iou did not improve from 0.41180
+0.4377348065376282
+0.40969257354736327

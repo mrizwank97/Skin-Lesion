@@ -1,0 +1,98 @@
+Executing on gpu014
+Found 150 images belonging to 1 classes.
+Found 150 images belonging to 1 classes.
+Found 25 images belonging to 1 classes.
+Found 25 images belonging to 1 classes.
+Found 25 images belonging to 1 classes.
+Found 25 images belonging to 1 classes.
+11
+Epoch 1/100
+ - 53s - loss: 0.5347 - mean_iou: 0.4554 - val_loss: 1.5464 - val_mean_iou: 0.2772
+
+Epoch 00001: val_mean_iou improved from -inf to 0.27719, saving model to ../models/ph2-fcdn-bin-iou.h5
+Epoch 2/100
+ - 15s - loss: 0.4010 - mean_iou: 0.5105 - val_loss: 1.0984 - val_mean_iou: 0.3920
+
+Epoch 00002: val_mean_iou improved from 0.27719 to 0.39201, saving model to ../models/ph2-fcdn-bin-iou.h5
+Epoch 3/100
+ - 11s - loss: 0.3159 - mean_iou: 0.5918 - val_loss: 0.5420 - val_mean_iou: 0.5909
+
+Epoch 00003: val_mean_iou improved from 0.39201 to 0.59086, saving model to ../models/ph2-fcdn-bin-iou.h5
+Epoch 4/100
+ - 11s - loss: 0.3081 - mean_iou: 0.5740 - val_loss: 0.5004 - val_mean_iou: 0.6434
+
+Epoch 00004: val_mean_iou improved from 0.59086 to 0.64343, saving model to ../models/ph2-fcdn-bin-iou.h5
+Epoch 5/100
+ - 11s - loss: 0.3134 - mean_iou: 0.5726 - val_loss: 0.5528 - val_mean_iou: 0.6188
+
+Epoch 00005: val_mean_iou did not improve from 0.64343
+Epoch 6/100
+ - 11s - loss: 0.3579 - mean_iou: 0.5340 - val_loss: 0.5442 - val_mean_iou: 0.6717
+
+Epoch 00006: val_mean_iou improved from 0.64343 to 0.67170, saving model to ../models/ph2-fcdn-bin-iou.h5
+Epoch 7/100
+ - 11s - loss: 0.3177 - mean_iou: 0.5853 - val_loss: 1.4648 - val_mean_iou: 0.4203
+
+Epoch 00007: val_mean_iou did not improve from 0.67170
+Epoch 8/100
+ - 11s - loss: 0.3298 - mean_iou: 0.6033 - val_loss: 0.7350 - val_mean_iou: 0.5758
+
+Epoch 00008: val_mean_iou did not improve from 0.67170
+Epoch 9/100
+ - 11s - loss: 0.3525 - mean_iou: 0.5792 - val_loss: 0.8812 - val_mean_iou: 0.5652
+
+Epoch 00009: val_mean_iou did not improve from 0.67170
+Epoch 10/100
+ - 11s - loss: 0.3446 - mean_iou: 0.6013 - val_loss: 0.9253 - val_mean_iou: 0.3945
+
+Epoch 00010: val_mean_iou did not improve from 0.67170
+Epoch 11/100
+ - 11s - loss: 0.2696 - mean_iou: 0.6149 - val_loss: 0.6851 - val_mean_iou: 0.5631
+
+Epoch 00011: val_mean_iou did not improve from 0.67170
+Epoch 12/100
+ - 11s - loss: 0.3005 - mean_iou: 0.6149 - val_loss: 0.4522 - val_mean_iou: 0.6813
+
+Epoch 00012: val_mean_iou improved from 0.67170 to 0.68129, saving model to ../models/ph2-fcdn-bin-iou.h5
+Epoch 13/100
+ - 11s - loss: 0.2759 - mean_iou: 0.6400 - val_loss: 0.8182 - val_mean_iou: 0.4774
+
+Epoch 00013: val_mean_iou did not improve from 0.68129
+Epoch 14/100
+ - 11s - loss: 0.3032 - mean_iou: 0.6181 - val_loss: 0.6003 - val_mean_iou: 0.5650
+
+Epoch 00014: val_mean_iou did not improve from 0.68129
+Epoch 15/100
+ - 11s - loss: 0.3028 - mean_iou: 0.6122 - val_loss: 0.7173 - val_mean_iou: 0.5736
+
+Epoch 00015: val_mean_iou did not improve from 0.68129
+Epoch 16/100
+ - 11s - loss: 0.3109 - mean_iou: 0.6103 - val_loss: 0.5742 - val_mean_iou: 0.5979
+
+Epoch 00016: val_mean_iou did not improve from 0.68129
+Epoch 17/100
+ - 11s - loss: 0.2764 - mean_iou: 0.6259 - val_loss: 0.7063 - val_mean_iou: 0.5001
+
+Epoch 00017: val_mean_iou did not improve from 0.68129
+Epoch 18/100
+ - 11s - loss: 0.2450 - mean_iou: 0.6531 - val_loss: 0.6673 - val_mean_iou: 0.6115
+
+Epoch 00018: val_mean_iou did not improve from 0.68129
+Epoch 19/100
+ - 11s - loss: 0.2893 - mean_iou: 0.5982 - val_loss: 0.7175 - val_mean_iou: 0.5163
+
+Epoch 00019: val_mean_iou did not improve from 0.68129
+Epoch 20/100
+ - 11s - loss: 0.3092 - mean_iou: 0.6050 - val_loss: 0.7643 - val_mean_iou: 0.5192
+
+Epoch 00020: val_mean_iou did not improve from 0.68129
+Epoch 21/100
+ - 11s - loss: 0.2907 - mean_iou: 0.6285 - val_loss: 0.7820 - val_mean_iou: 0.5007
+
+Epoch 00021: val_mean_iou did not improve from 0.68129
+Epoch 22/100
+ - 11s - loss: 0.2883 - mean_iou: 0.6144 - val_loss: 0.8604 - val_mean_iou: 0.4929
+
+Epoch 00022: val_mean_iou did not improve from 0.68129
+loss is 0.47331388543049496
+miou is 0.5910928944746653
