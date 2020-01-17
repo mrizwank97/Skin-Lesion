@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=isicfcdn
+#SBATCH -N 1
+#SBATCH -o ../server_logs/isicfcdn.out 
+#SBATCH -e ../server_logs/isicfcdn.err
+#SBATCH --mem=96000
+#SBATCH --gres=gpu:1
+#SBATCH --time=48:00:00
+#SBATCH --mail-type=END
+
+echo "Executing on $HOSTNAME"
+
+module load gcc/latest
+module load nvidia/latest
+module load cudnn/latest
+
+python3 ../python_files/densenet-isic.py

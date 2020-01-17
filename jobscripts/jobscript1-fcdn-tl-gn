@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=fcdntlgn
+#SBATCH -N 1
+#SBATCH -o ../server_logs/fcdntlgn.out 
+#SBATCH -e ../server_logs/fcdntlgn.err
+#SBATCH --mem=128000
+#SBATCH --gres=gpu:1
+#SBATCH --time=50:00:00
+#SBATCH --mail-type=END
+
+echo "Executing on $HOSTNAME"
+
+module load gcc/latest
+module load nvidia/latest
+module load cudnn/latest
+
+python3 ../notebooks/fcdn-isic-tl-gn.py
